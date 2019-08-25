@@ -4,4 +4,6 @@ master:
 new info
  - fix-B
 - fix-B 第二次修改
+------------------
+-feature-c infometion
 
