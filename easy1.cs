@@ -3,7 +3,6 @@
  *
  * [1] 两数之和
  */
- using System;
 public class Solution {
     public int[] TwoSum(int[] nums, int target) {    
        for(int i=0,c=nums.Length;i<c-1;i++)
@@ -12,7 +11,7 @@ public class Solution {
           {            
               if(nums[i]+nums[j]==target)
               {             
-                return new int[]{i,j};;     
+                return new int[]{i,j};     
               }
     
           }
