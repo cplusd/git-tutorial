@@ -1,0 +1,9 @@
+pgadmin: search proc or func
+select routine_name
+from information_schema.routines
+where routine_catalog = ‘xxxxxxx’ /*database name*/
+and routine_schema =‘xxxx’ /*schemas name*/
+and routine_name like ‘%xxx%’ /*filter proc name */
+limit 200
+
+select  proname, prosrc  from pg_proc  where proname = ‘xx’; /*search proc detail*/
