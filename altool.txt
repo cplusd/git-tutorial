@@ -1,0 +1,10 @@
+https://appleid.apple.com/ -》安全-》生成密码
+
+xcrun altool --validate-app -f 包体绝对路径.ipa -t iOS -u 用户名 -p 密码(动态密码)
+
+xcrun altool --upload-app -f 包体绝对路径.ipa -t iOS -u 用户名 -p 密码(动态密码)
+
+
+
+VS 打包后，打开xcode任意工程，选择product-》Archive-》找到目标，-》validate-》upload
+
