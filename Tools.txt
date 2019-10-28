@@ -1,4 +1,5 @@
 http://inkscape.org
 macOS convert svg to png
 Linux命令.txt
-https://www.cnblogs.com/daiweilai/p/4234336.html
+https://www.cnblogs.com/daiweilai/p/4234336.html iOS 中预编译指令
+https://www.jianshu.com/p/f83bac20b291   瀑布流
