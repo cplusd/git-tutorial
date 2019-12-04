@@ -3,3 +3,7 @@ macOS convert svg to png
 Linux命令.txt
 https://www.cnblogs.com/daiweilai/p/4234336.html iOS 中预编译指令
 https://www.jianshu.com/p/f83bac20b291   瀑布流
+
+说明：CancelPreviousPerformRequest 只有参数一致时才有效
+NSObject.CancelPreviousPerformRequest(this, new ObjCRuntime.Selector("HandleSearch:"), new NSString(searchStr));
+                   this.PerformSelector(new ObjCRuntime.Selector("HandleSearch:"), new NSString(searchStr), .5d);
